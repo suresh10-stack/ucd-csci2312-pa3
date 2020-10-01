@@ -29,9 +29,9 @@ namespace Testing {
             lastline(0),
             skip(false) {
         os << "line: ";
-        os.width(65);
+        os.width(65);//width
         os.setf(ios::left, ios::adjustfield);
-        os << "description" << " result" << endl;
+        os << "description" << " result" << endl;//result
         os.width(78);
         os.fill('~');
         os << "~" << endl;
